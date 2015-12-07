@@ -10,6 +10,10 @@ gem 'uglifier'
 # gem 'coffee-rails'
 gem 'jquery-rails'
 
+group :development do
+  gem "erb2haml"
+end
+
 group :test do
   gem 'rspec'
   gem 'rspec-rails'
